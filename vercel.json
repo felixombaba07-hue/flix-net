@@ -1,1 +1,11 @@
-{"version":2,"cleanUrls":true,"trailingSlash":false,"functions":{"api/**/*.js":{"maxDuration":15}}}
+{
+  "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "installCommand": "env -u npm_config_cache-dir npm install",
+  "functions": {
+    "api/**/*.js": {
+      "maxDuration": 15
+    }
+  }
+}
